@@ -73,7 +73,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  color blue
+  color: blue;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -3608,7 +3608,7 @@ img
   --bs-nav-link-color: var(--bs-link-color);
   --bs-nav-link-hover-color: var(--bs-link-hover-color);
   --bs-nav-link-disabled-color: #050505;
-  style=background-color:black;
+  style=background-color: black;
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
