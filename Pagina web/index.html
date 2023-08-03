@@ -187,6 +187,27 @@
                             <button onclick="pauseAudio()">Pause</button>
                             <button onclick="stopAudio()">Stop</button>
                             <h5 class="fw-bolder">Top 1°</h5>
+                            <script>
+  // Obtener referencia al elemento de audio
+  var audioPlayer = document.getElementById('audioPlayer');
+
+  // Función para reproducir el audio
+  function playAudio() {
+    audioPlayer.play();
+  }
+
+  // Función para pausar el audio
+  function pauseAudio() {
+    audioPlayer.pause();
+  }
+
+  // Función para detener el audio
+  function stopAudio() {
+    audioPlayer.pause();
+    audioPlayer.currentTime = 0;
+  }
+</script>
+
                             Sale
                             $40.00 - $80.00
                             <!-- <h1>Subir Archivo</h1>
